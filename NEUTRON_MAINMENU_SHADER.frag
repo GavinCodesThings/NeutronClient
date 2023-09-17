@@ -69,6 +69,6 @@ void main()
     vec4 on = vec4(0.0);
     float f = func(p, on);
 
-	vec4 col = vec4(vec3(f), (1./f )* .125);
+	vec4 col = vec4(vec3(f), 1);
     gl_FragColor = col;
 }
